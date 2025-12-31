@@ -1,0 +1,2 @@
+[console_scripts]
+explain-my-config = explain_my_config.cli:main

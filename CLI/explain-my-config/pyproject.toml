@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "explain-my-config"
+version = "1.0.0"
+description = "A CLI tool that reads configuration files and outputs plain-English explanations"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "Explain My Config Contributors"}
+]
+keywords = ["cli", "config", "configuration", "env", "json", "yaml", "beginner"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Utilities",
+]
+dependencies = [
+    "PyYAML>=6.0",
+]
+
+[project.scripts]
+explain-my-config = "explain_my_config.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/explain-my-config/explain-my-config"
+Repository = "https://github.com/explain-my-config/explain-my-config"
+Issues = "https://github.com/explain-my-config/explain-my-config/issues"
+
+[tool.setuptools.packages.find]
+where = ["."]

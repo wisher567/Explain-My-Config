@@ -1,0 +1,21 @@
+{
+  "port": 3000,
+  "host": "localhost",
+  "debug": true,
+  "database": {
+    "host": "db.example.com",
+    "port": 5432,
+    "name": "myapp_production",
+    "pool_size": 20
+  },
+  "logging": {
+    "level": "debug",
+    "file": "/var/log/app.log"
+  },
+  "cache": {
+    "enabled": true,
+    "ttl": 600
+  },
+  "api_key": "api-key-12345",
+  "max_connections": 100
+}

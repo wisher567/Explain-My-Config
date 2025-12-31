@@ -1,0 +1,28 @@
+# Sample YAML configuration file
+# Application settings for a web service
+
+server:
+  port: 8080
+  host: 0.0.0.0
+  timeout: 30
+
+database:
+  host: postgres.example.com
+  port: 5432
+  name: production_db
+  pool_size: 25
+  
+logging:
+  level: info
+  format: json
+  
+security:
+  secret_key: yaml-secret-key-456
+  jwt_secret: jwt-token-secret
+
+features:
+  cache_enabled: true
+  rate_limit: 1000
+  
+environment: production
+debug: false
