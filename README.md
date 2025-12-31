@@ -10,6 +10,8 @@
 [![YAML](https://img.shields.io/badge/-YAML-red.svg)](.)
 [![Beginner Friendly](https://img.shields.io/badge/-beginner--friendly-brightgreen.svg)](.)
 [![Developer Tools](https://img.shields.io/badge/-developer--tools-blueviolet.svg)](.)
+
+
 A simple CLI tool that reads configuration files (`.env`, `.json`, `.yaml`) and outputs plain-English explanations of each key/value pair for beginners.
 
 ## Installation
